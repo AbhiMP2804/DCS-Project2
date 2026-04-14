@@ -228,24 +228,3 @@ int                      commandCounter  // incremented inside synchronized bloc
 
 ---
 
-## Team
-
-**Project Group Members:**
-- [Your Name]
-- [Partner Name (if applicable)]
-
-> *"This project was done in its entirety by [Project group members names]. We hereby state that we have not received unauthorized help of any form."*
-
-**Course:** Computer Networks — Programming Project 2
-**Platform:** Tested on Linux (Nike lab environment)
-**Language:** Java (JDK 8+)
-
----
-
-## Notes
-
-- Each client maintains a **single connection** to `nport` — avoids `cd` conflicts across background threads
-- **No `java.util.concurrent` data structures** used anywhere, per project constraints
-- Syntax validation is not enforced — valid command syntax is assumed
-- User authentication and permission checks are not implemented
-- Built and tested exclusively on **Linux**; behavior on Windows/macOS is not guaranteed
